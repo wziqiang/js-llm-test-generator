@@ -12,7 +12,7 @@
 
 ## 1. 目录结构
 
-项目根目录（`C:\Users\27105\Desktop\dome\lw_ai`）主要结构如下：
+项目根目录（`js-llm-test-generator`）主要结构如下：
 
 - `server.js`：后端入口文件（Express 服务 + Jest 调用）
 - `jest.config.cjs`：Jest 配置文件（测试环境设置为 Node）
@@ -36,17 +36,17 @@
 
 ## 3. 获取项目代码
 
-如果已经在本机有完整项目文件（例如导师/同学给了你整个文件夹），只需要将整个 `lw_ai` 文件夹放在任意位置即可。
+如果已经在本机有完整项目文件（例如导师/同学给了你整个文件夹），只需要将整个 `js-llm-test-generator` 文件夹放在任意位置即可。
 
 
 ## 4. 安装依赖
 
 ### 4.1 后端依赖安装
 
-在项目根目录 `lw_ai` 下执行：
+在项目根目录 `js-llm-test-generator` 下执行：
 
 ```bash
-cd C:\Users\27105\Desktop\dome\lw_ai
+cd js-llm-test-generator
 npm install
 ```
 
@@ -62,7 +62,7 @@ npm install
 切换到前端目录：
 
 ```bash
-cd C:\Users\27105\Desktop\dome\lw_ai\frontend
+cd js-llm-test-generator\frontend
 npm install
 ```
 
@@ -74,17 +74,17 @@ npm install
 
 ### 步骤 1：启动后端服务（Node + Express + Jest）
 
-在项目根目录 `lw_ai` 下打开终端，执行：
+在项目根目录 `js-llm-test-generator` 下打开终端，执行：
 
 ```bash
-cd C:\Users\27105\Desktop\dome\lw_ai
+cd js-llm-test-generator
 npm run dev
 ```
 
 成功后终端会显示类似信息：
 
 ```bash
-> lw_ai@1.0.0 dev
+> js-llm-test-generator@1.0.0 dev
 > cross-env NODE_ENV=development node server.js
 
 Server listening on http://localhost:3000
@@ -99,7 +99,7 @@ Server listening on http://localhost:3000
 再打开一个新的终端窗口，切换到前端目录：
 
 ```bash
-cd C:\Users\27105\Desktop\dome\lw_ai\frontend
+cd js-llm-test-generator\frontend
 npm run dev
 ```
 
@@ -205,7 +205,7 @@ function sum(a, b) {
 
 为了验证系统生成测试用例的有效性，项目内置了一个包含 30 个典型 JavaScript 函数的测试样本集。这些样本涵盖了论文中提到的三大类别，可用于答辩时的功能演示和实验数据支撑。
 
-样本文件：[test_samples.js](file:///c:/Users/27105/Desktop/dome/lw_ai/test_samples.js)
+样本文件：[test_samples.js](file:///c:/Users/27105/Desktop/dome/js-llm-test-generator/test_samples.js)
 
 ### 8.1 基础算法类 (1-10)
 包含经典的计算机科学算法，逻辑清晰，边界明确：

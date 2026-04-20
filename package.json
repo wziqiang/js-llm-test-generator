@@ -1,5 +1,5 @@
 {
-  "name": "lw_ai",
+  "name": "js-llm-test-generator",
   "version": "1.0.0",
   "description": "基于大模型的自动化软件测试生成系统（后端）",
   "main": "server.js",
