@@ -6,3 +6,4 @@ dist/
 *.log
 other/
 .env
+generate_thesis.py
